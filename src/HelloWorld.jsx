@@ -1,10 +1,7 @@
-function HelloWorld() {
+import React from 'react'
 
-    return (
-      <>
-        <h1>Testing World</h1>
-      </>
-    )
-  }
-  
-  export default HelloWorld
+export const HelloWorld = () => {
+  return (
+    <div>HelloWorld</div>
+  )
+}
